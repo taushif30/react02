@@ -46,7 +46,7 @@ class FormCLass extends Component{
         <br/>
         <br/>
         <label htmlFor ="Rating">Rating :  </label>
-        <input id="Rating" type="number" max='5'placeholder='Enter Dept'name='Rating' value={this.state.Rating} onChange={this.changeHandle} required/>
+        <input id="Rating" type="number" max='5'placeholder='Enter Rating'name='Rating' value={this.state.Rating} onChange={this.changeHandle} required/>
         <br/>
         <br/>
         
